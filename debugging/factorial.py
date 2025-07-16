@@ -8,8 +8,5 @@ def factorial(n):
         n -= 1
     return result
 
-if len(sys.argv) < 2:
-    print("Error: Please provide a number as an argument.")
-else:
-    f = factorial(int(sys.argv[1]))
-    print(f)
+f = factorial(int(sys.argv[1]))
+print(f) 
